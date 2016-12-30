@@ -26,5 +26,7 @@ root 'pages#home'
   get 'how_it_works' => 'pages#how_it_works'
   
   get 'partners' => 'pages#partners'
+  
+  resources :contacts
 
 end
