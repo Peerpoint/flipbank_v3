@@ -24,6 +24,18 @@ class PagesController < ApplicationController
   end
   
   def blog
-  end        
+  end  
+  
+  def why_flipbank
+  end
+  
+  def programs
+  end
+  
+  def how_it_works
+  end
+  
+  def partners
+  end  
   
 end

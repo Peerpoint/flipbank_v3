@@ -18,5 +18,13 @@ root 'pages#home'
   get 'products' => 'pages#products'
   
   get 'blog' => 'pages#blog'
+  
+  get 'why_flipbank' => 'pages#why_flipbank'
+  
+  get 'programs' => 'pages#programs'
+  
+  get 'how_it_works' => 'pages#how_it_works'
+  
+  get 'partners' => 'pages#partners'
 
 end
