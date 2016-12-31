@@ -7,8 +7,6 @@ root 'pages#home'
 
   get 'careers' => 'pages#careers'
 
-  get 'contact' => 'pages#contact'
-
   get 'privacy' => 'pages#privacy'
 
   get 'terms' => 'pages#terms'
@@ -28,5 +26,6 @@ root 'pages#home'
   get 'partners' => 'pages#partners'
   
   resources :contacts
+  get 'contact-us', to: 'contacts#new'
 
 end

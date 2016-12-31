@@ -8,9 +8,6 @@ class PagesController < ApplicationController
   def careers
   end
 
-  def contact
-  end
-
   def privacy
   end
 
